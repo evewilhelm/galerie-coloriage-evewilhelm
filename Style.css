@@ -1,0 +1,44 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fffaf7;
+  margin: 0;
+  padding: 0;
+  color: #444;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(to right, #ffd6e0, #ffe5b4);
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 15px;
+  padding: 20px;
+  width: 220px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.button {
+  background-color: #ffb6c1;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
